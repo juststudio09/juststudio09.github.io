@@ -27,17 +27,5 @@ const projects = [
       }
     ]
   },
-  {
-    title: "Я вашу мать ебал бляди",
-    type: "Дети шлюх",
-    status: "Опубликован",
-    description: "пидоры конченные",
-    image: "",
-    links: [
-      {
-        label: "Страница проекта",
-        url: "https://t.me/official_juststudio"
-      }
-    ]
-  }
+
 ];
