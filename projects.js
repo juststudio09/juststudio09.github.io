@@ -13,6 +13,7 @@
   Для Telegram-бота используйте type: "BOT", а в links добавьте
   { label: "Открыть бота", url: "https://t.me/имя_бота" }.
 */
+
 const projects = [
   {
     title: "JP FPS Displayer",
