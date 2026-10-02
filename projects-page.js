@@ -32,9 +32,7 @@ function renderCatalog() {
   count.textContent = `${String(shown.length).padStart(2, "0")} ${shown.length === 1 ? "PROJECT" : "PROJECTS"}`;
   empty.hidden = shown.length !== 0;
   catalog.innerHTML = shown.map(project => {
-const image = project.image
-  ? `<img src="${escapeHtml(safeUrl(project.image))}" alt="${escapeHtml(project.title)}" loading="lazy">`
-  : "";
+    const image = project.image ? `<img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.title)}" loading="lazy">` : "";
     const fallback = (project.links || []).find(link => link.url)?.url || "#";
     const download = project.download || fallback;
     const downloadLabel = project.download ? "Скачать файл" : "Скачать на CurseForge";
