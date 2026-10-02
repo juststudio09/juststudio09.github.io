@@ -11,9 +11,11 @@ const popularProjects = projects.filter(project => project.popular === true);
 count.textContent = `${String(popularProjects.length).padStart(2, "0")} ${popularProjects.length === 1 ? "PROJECT" : "PROJECTS"}`;
 list.innerHTML = popularProjects.map(project => {
   const image = project.image ? `<img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.title)}" loading="lazy">` : "";
-  const links = (project.links || []).map((link, i) =>
-    `<a class="project-link ${i === 0 ? "primary-link" : ""}" href="${escapeHtml(safeUrl(link.url))}" target="_blank" rel="noopener">${escapeHtml(link.label || "Открыть")} ↗</a>`
-  ).join("");
+const links = `
+  <a class="project-link primary-link" href="projects.html">
+    Посмотреть в каталоге ↗
+  </a>
+`;
   return `<article class="project-card">
     <div class="project-image ${project.image ? "" : "placeholder"}">${image}</div>
     <div class="project-body">
