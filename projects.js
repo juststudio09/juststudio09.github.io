@@ -21,7 +21,7 @@ const projects = [
     popular: true, // Показывать на главной странице
     status: "Опубликован",
     description: "Модификация для Minecraft, опубликованная в 2025 году под названием JustProject. Подробности и загрузка доступны на CurseForge.",
-    image: "assets/fpsdisplayer.png",
+    image: "/assets/fpsdisplayer.png",
     download: "/assets/fpsdisplayer-1.0.0.jar",
     links: [
       { label: "Страница проекта", url: "https://www.curseforge.com/minecraft/mc-mods/justproject-fpsdisplayer" }
