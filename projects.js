@@ -13,20 +13,17 @@
   Для Telegram-бота используйте type: "BOT", а в links добавьте
   { label: "Открыть бота", url: "https://t.me/имя_бота" }.
 */
-
 const projects = [
   {
     title: "JP FPS Displayer",
     type: "Minecraft MOD",
+    category: "mods",
     status: "Опубликован",
-    description: "Модификация для Minecraft, опубликованная в 2025 году под названием JustProject.",
+    description: "Модификация для Minecraft, опубликованная в 2025 году под названием JustProject. Подробности и загрузка доступны на CurseForge.",
     image: "",
+    download: "assets/fpsdisplayer-1.0.0.jar",
     links: [
-      {
-        label: "Страница проекта",
-        url: "https://www.curseforge.com/minecraft/mc-mods/justproject-fpsdisplayer"
-      }
+      { label: "Страница проекта", url: "https://www.curseforge.com/minecraft/mc-mods/justproject-fpsdisplayer" }
     ]
-  },
-
+  }
 ];

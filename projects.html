@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080912">
+  <meta name="description" content="Каталог проектов Just Studio: моды, плагины и скрипты.">
+  <title>Наши проекты — Just Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="https://i.ibb.co/TxhYN3mq/photo-2026-10-01-20-30-49.jpg" alt="Логотип Just Studio" onerror="this.style.display='none';this.parentElement.classList.add('no-image')"></span>
+      <span>Just <b>Studio</b></span>
+    </a>
+    <nav aria-label="Основная навигация">
+      <a href="index.html#about">О нас</a><a href="projects.html" aria-current="page">Наши проекты</a><a href="index.html#contact">Контакты</a>
+    </nav>
+    <a class="nav-cta" href="index.html#suggest">Предложить проект <span>↗</span></a>
+  </header>
+
+  <main class="catalog-main">
+    <div class="catalog-kicker">JUST STUDIO / PROJECTS</div>
+    <div class="catalog-title-row">
+      <div><h1>Наши <span class="gradient">проекты</span></h1>
+        <p>Выбери категорию и посмотри наши разработки.</p></div>
+      <a class="button secondary catalog-back" href="index.html">← На главную</a>
+    </div>
+    <div class="catalog-controls">
+      <label for="category-filter">Каталог проектов</label>
+      <select id="category-filter">
+        <option value="all">Все категории</option>
+        <option value="mods">Моды</option>
+        <option value="plugins">Плагины</option>
+        <option value="scripts">Скрипты</option>
+      </select>
+      <span id="catalog-count" class="project-count">01 PROJECT</span>
+    </div>
+    <div class="project-grid catalog-grid" id="catalog-list"></div>
+    <div class="catalog-empty" id="catalog-empty" hidden>В этой категории пока нет проектов.</div>
+  </main>
+
+  <footer><a class="brand footer-brand" href="index.html"><span class="brand-mark"><img src="https://i.ibb.co/TxhYN3mq/photo-2026-10-01-20-30-49.jpg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('no-image')"></span><span>Just <b>Studio</b></span></a><span>© <span id="year"></span> Just Studio. Made with ideas & code.</span><a href="#">Наверх ↑</a></footer>
+  <script src="projects.js"></script>
+  <script src="projects-page.js"></script>
+</body>
+</html>
