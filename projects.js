@@ -47,10 +47,14 @@ const projects = [
         description:
             "Индивидуальный Telegram-бот, разработанный по заказу. Проект включает игровую систему, пользовательское меню и взаимодействие с пользователями.",
         image: "assets/custom-bot.png",
-        links: []
+        links: [
+            {
+                label: "Открыть бота",
+                url: "https://t.me/gift_by_kalma_x_bot"
+            }
+        ]
     }
 ];
-
 
 // ================================
 // POPULAR PROJECTS
