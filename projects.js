@@ -14,17 +14,38 @@
   { label: "Открыть бота", url: "https://t.me/имя_бота" }.
 */
 const projects = [
-  {
-    title: "JP FPS Displayer",
-    type: "Minecraft MOD",
-    category: "mods",
-    popular: true, // Показывать на главной странице
-    status: "Опубликован",
-    description: "Модификация для Minecraft, опубликованная в 2025 году под названием JustProject. Подробности и загрузка доступны на CurseForge.",
-    image: "https://juststudio09.github.io/assets/fpsdisplayer.png",
-    download: "/assets/fpsdisplayer-1.0.0.jar",
-    links: [
-      { label: "Страница проекта", url: "https://www.curseforge.com/minecraft/mc-mods/justproject-fpsdisplayer" }
-    ]
-  }
+    {
+        title: "JP FPS Displayer",
+        type: "Minecraft MOD",
+        category: "mods",
+        status: "Опубликован",
+        description: "Minecraft-модификация для отображения FPS и дополнительной информации. Проект был опубликован в 2025 году.",
+        image: "assets/jp-fps-displayer.png",
+        download: "https://www.curseforge.com/minecraft/mc-mods/justproject-fpsdisplayer",
+        links: {
+            curseforge: "https://www.curseforge.com/minecraft/mc-mods/justproject-fpsdisplayer"
+        }
+    },
+
+    {
+        title: "JustHUD",
+        type: "Minecraft MOD",
+        category: "mods",
+        status: "В разработке",
+        description: "Новая HUD-модификация Just Studio с отображением FPS, CPS, координат, информации об игроке и других элементов интерфейса.",
+        image: "assets/justhud.png",
+        download: "",
+        links: {}
+    },
+
+    {
+        title: "Игровой Telegram-бот",
+        type: "Telegram Bot",
+        category: "bots",
+        status: "Завершён",
+        description: "Индивидуальный Telegram-бот, разработанный по заказу. Проект включает игровую систему, пользовательское меню и взаимодействие с пользователями.",
+        image: "assets/custom-bot.png",
+        download: "",
+        links: {}
+    }
 ];
