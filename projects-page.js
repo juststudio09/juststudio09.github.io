@@ -41,7 +41,7 @@ function renderCatalog() {
       return category === selected;
     }
 
-    return ["mods", "plugins", "scripts"].includes(category);
+    return ["mods", "plugins", "scripts", "bots"].includes(category);
   });
 
   count.textContent =
