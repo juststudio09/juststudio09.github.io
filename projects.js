@@ -32,10 +32,11 @@ const projects = [
         title: "JustHUD",
         type: "Minecraft MOD",
         category: "mods",
-        status: "В разработке",
+        status: "Опубликован",
         description:
-            "Новая HUD-модификация Just Studio с отображением FPS, CPS, координат, информации об игроке и других элементов интерфейса.",
+            "HUD-модификация для Minecraft 1.21.11 с отображением FPS, CPS, координат, прочности брони, информации о сущностях и нажатий клавиш.",
         image: "assets/justhud.png",
+        download: "assets/justhud-1.0.0.jar",
         links: []
     },
 
